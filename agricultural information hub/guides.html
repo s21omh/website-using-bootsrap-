@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming Guides | Agricultural Information Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🌱 Agricultural Information Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="guides.html">Farming Guides</a></li>
+                    <li class="nav-item"><a class="nav-link" href="crops.html">Crop Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pest-control.html">Pest Control</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Farming Guides</h1>
+            <p class="lead">Practical information for better farming.</p>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="py-5">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2>Guide Categories</h2>
+                    <p>Choose a category to explore farming information.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <h3 class="h4">🌾 Crop-Based Guides</h3>
+                                <p>Explore farming information organized according to different crop types.</p>
+                                <ul class="list-unstyled">
+                                    <li>Grain crops</li>
+                                    <li>Fruit crops</li>
+                                    <li>Vegetable crops</li>
+                                    <li>Cash crops</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <h3 class="h4">☀️ Seasonal Guides</h3>
+                                <p>Learn about farming activities and planning according to different seasons.</p>
+                                <ul class="list-unstyled">
+                                    <li>Seasonal planning</li>
+                                    <li>Crop selection</li>
+                                    <li>Crop maintenance</li>
+                                    <li>Harvest planning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <h3 class="h4">🚜 Farming Methods</h3>
+                                <p>Learn about different farming practices, techniques, and methodologies.</p>
+                                <ul class="list-unstyled">
+                                    <li>Land preparation</li>
+                                    <li>Planting methods</li>
+                                    <li>Crop care</li>
+                                    <li>Harvesting methods</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-light py-5">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2>Step-by-Step Farming Guide</h2>
+                    <p>Follow the basic stages of crop production.</p>
+                </div>
+
+                <div class="accordion" id="farmingGuide">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepOne">
+                                Step 1 — Land Preparation
+                            </button>
+                        </h2>
+                        <div id="stepOne" class="accordion-collapse collapse show" data-bs-parent="#farmingGuide">
+                            <div class="accordion-body">
+                                Prepare the land properly before planting. Make the soil suitable for the selected crop
+                                and remove unwanted materials.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepTwo">
+                                Step 2 — Seed Selection
+                            </button>
+                        </h2>
+                        <div id="stepTwo" class="accordion-collapse collapse" data-bs-parent="#farmingGuide">
+                            <div class="accordion-body">
+                                Select suitable seeds according to the crop type, season, farming method, and local
+                                growing conditions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepThree">
+                                Step 3 — Planting
+                            </button>
+                        </h2>
+                        <div id="stepThree" class="accordion-collapse collapse" data-bs-parent="#farmingGuide">
+                            <div class="accordion-body">
+                                Plant the selected crop using an appropriate planting method and maintain suitable
+                                growing conditions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepFour">
+                                Step 4 — Crop Maintenance
+                            </button>
+                        </h2>
+                        <div id="stepFour" class="accordion-collapse collapse" data-bs-parent="#farmingGuide">
+                            <div class="accordion-body">
+                                Regularly monitor the crop and manage water, soil, weeds, pests, and other crop-care
+                                requirements.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#stepFive">
+                                Step 5 — Harvesting
+                            </button>
+                        </h2>
+                        <div id="stepFive" class="accordion-collapse collapse" data-bs-parent="#farmingGuide">
+                            <div class="accordion-body">
+                                Monitor crop maturity and use an appropriate harvesting method to collect the crop
+                                effectively.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+
+                <div class="text-center mb-4">
+                    <h2>Farming Tips & Best Practices</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">🌱 Choose Suitable Crops</h3>
+                                <p>Select crops according to the season, soil conditions, and farming objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">💧 Monitor Water</h3>
+                                <p>Pay attention to crop water requirements and maintain suitable growing conditions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="h5">🔍 Inspect Crops</h3>
+                                <p>Regularly observe crops to identify possible problems at an early stage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="text-center py-3">
+        <p class="mb-0">Current Date & Time: <span id="dateTime"></span></p>
+    </div>
+
+    <footer class="bg-success text-white text-center py-3">
+        <p class="mb-0">© 2026 Agricultural Information Hub | Grow Better. Harvest Smarter.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
